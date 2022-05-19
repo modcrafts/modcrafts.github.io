@@ -38,7 +38,9 @@
    > 64 位系统安装 `qemu-ga-x86_64.msi`  
    > 32 位系统安装 `qemu-ga-i386.msi`  
 
-之后 qemu-guest-agent 应该启动并运行。 您可以在 **Window 服务列表** 中或在 **PowerShell** 中使用以下命令对此进行验证  
+至此, qemu-guest-agent 应该已经启动并运行。   
+您可以在 **Window 服务列表** 中或在 **PowerShell** 中使用以下命令对此进行验证  
+
 ```
 PS C:\Users\Administrator> Get-Service QEMU-GA
 
@@ -46,6 +48,7 @@ Status   Name               DisplayName
 ------   ----               -----------
 Running  QEMU-GA            QEMU Guest Agent
 ```
+
 如果它没有运行，您可以使用 **服务** 控制面板启动它，并确保它会在下次服务器启动时自动启动  
 
 ## Linux
