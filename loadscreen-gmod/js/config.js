@@ -27,7 +27,7 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "按 G 打开地图",
+  "推荐加群订阅后再加入本服务器",
   "按 F4 打开职业面板"
 ];
 
