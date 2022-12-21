@@ -28,7 +28,8 @@ Config.enableAnnouncements = true;
  */
 Config.announceMessages = [
   "推荐加群订阅后再加入本服务器",
-  "按 F4 打开职业面板"
+  "QQ群: 321688660"
+  "按 F4 打开职业面板",
 ];
 
 /**
